@@ -1,6 +1,7 @@
 import './App.css'
 import BasicRactQuery from './components/basic use of query/BasicRactQuery.jsx'
 import FormUsingUseMutation from './components/adduser/FormUsingUseMutation.jsx'
+import AdvanceUseQuery from './components/allAdvanceOfUseQuery/AdvanceUseQuery.jsx'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <h1 className='text-center text-3xl font-bold text-[#8fa3d0]'>useQuery Example</h1>
       <BasicRactQuery />
       <FormUsingUseMutation />
+      <AdvanceUseQuery />
     </div>
    </>
   )
