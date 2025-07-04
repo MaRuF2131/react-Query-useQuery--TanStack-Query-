@@ -61,7 +61,10 @@ const {
   // After this time, the cached data is garbage-collected if not used
 
   // Automatically refetch when the browser window is refocused
-  refetchOnWindowFocus: true
+  refetchOnWindowFocus: true,
+   refetchOnReconnect: true,       // auto refetch if internet reconnects
+   retry: 2,                       // retry failed queries up to 2 times
+   retryDelay: 1000,               // wait 1s between retries
 })
 
 
